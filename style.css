@@ -1,0 +1,27 @@
+.box{
+background-color: rgb(195, 192, 192);
+display: inline block;
+margin:auto ;}
+.logo{display: inline-block;
+min-width:20% ;}
+nav{
+display: inline-block;
+text-align: center;
+min-width:50% ;   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:10px ;
+}
+.btn{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius:2px  ;
+    margin-left: 170px ;
+    cursor: pointer;
+    
+}
+
+
