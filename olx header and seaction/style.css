@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+    
+
+
+}
+.logo svg{
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width:90% ;
+    position: relative;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    
+    
+}
+.nav1 span {
+    display: flex;
+    position: relative;
+    bottom: 2px;
+gap: 40px;
+}
+.second {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    /* background-color: yellowgreen; */
+  }
+  .location {
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+  }
+  .location input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+  .search {
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 5px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .search input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 700px;
+  }
+  .search svg {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .second a {
+    color: black;
+    font-weight: bold;
+  }
+  .second a:hover {
+    text-decoration: none;
+  }
+  .sell {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 20px;
+    text-align: center;
+    border: 5px solid black;
+  }
+  .card {
+    height: 600px;
+    width: 24%;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .text-div {
+    width: 78%;
+    display: inline-block;
+    text-align: left;
+  }
+  .para {
+    opacity: 0.8;
+  }
+  .price ins {
+    font-weight: bold;
+  }
+  .star-div {
+    width: 20%;
+    display: inline-block;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .star {
+    width: 20px;
+    height: 20px;
+  }
